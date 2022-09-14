@@ -1,2 +1,2 @@
-python3 lib\server.py
+python lib\server.py
 pause

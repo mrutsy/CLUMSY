@@ -1,5 +1,4 @@
 logs
-# игнорируем всё в корне
-/www/*
-# кроме папки /dev
-!/www/localhost
+
+/projects/*
+!/projects/localhost

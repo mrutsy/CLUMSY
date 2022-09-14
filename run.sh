@@ -1,1 +1,1 @@
-python modules/server.py
+python3 lib/server.py

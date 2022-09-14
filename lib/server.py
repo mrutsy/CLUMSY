@@ -7,11 +7,13 @@
 #
 # docker.remove()
 import os
+import platform
 import sys
 
 import distro
 print(os.name)
 print(sys.platform)
+print(platform.release())
 print(distro.id())
 print(distro.os_release_info())
 print(distro.info())

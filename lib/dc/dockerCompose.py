@@ -8,6 +8,8 @@ def current_version():
     except subprocess.CalledProcessError as Error:
         if Error.args[0] == 127:
             output = None
+        elif Error.args[0] == 1:
+            output = None
         else:
             print(Error)
     finally:

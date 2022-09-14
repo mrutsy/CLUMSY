@@ -13,7 +13,7 @@ import sys
 import distro
 print(os.name)
 print(sys.platform)
-print(platform)
+print(platform.system())
 print(platform.release())
 print(distro.id())
 print(distro.os_release_info())

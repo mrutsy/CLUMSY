@@ -5,4 +5,4 @@ from dc import docker, dockerCompose
 
 # ?
 
-dockerCompose.current_version()
+print(dockerCompose.current_version())

@@ -1,2 +1,2 @@
-python lib/server.py
+python libraries/server.py
 $SHELL

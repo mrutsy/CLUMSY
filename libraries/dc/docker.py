@@ -9,14 +9,35 @@ operation_system_name = distro.id()
 
 
 def install():
-    if platform.system() == "win32":
+    if platform.system() == "Windows":
         pass
     elif platform.system() == "Linux":
-        pass
+        os.system("sudo sh " + os.path.join("lib", "dc", "docker.sh"))
+        os.system("sudo service docker start && sudo systemctl start docker")
+        os.system("sudo usermod -aG docker $USER")
+        os.system("sudo chmod 666 /var/run/docker.sock")
     elif platform.system() == "darwin":
         pass
     else:
-        print("UNKNOWN OPERATION SYSTEM"+platform.system())
+        print("UNKNOWN OPERATION SYSTEM: " + platform.system())
+
+
+def current_version():
+    output = None
+    try:
+        output = subprocess.check_output(['docker -v'], shell=True, stderr=subprocess.STDOUT)
+    except subprocess.CalledProcessError as Error:
+        if Error.args[0] == 127:
+            output = None
+        elif Error.args[0] == 1:
+            output = None
+        else:
+            print(Error)
+    finally:
+        if output is None:
+            return output
+        else:
+            return str(output).rstrip().replace("b'", "").replace(",", "").split(" ")[2]
 
 # import subprocess
 # import os

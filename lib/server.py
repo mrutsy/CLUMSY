@@ -9,4 +9,8 @@
 
 
 import distro
-print(distro.distro_release_info()["name"])
+print(distro.id())
+print(distro.os_release_info())
+print(distro.info())
+print(distro.main())
+print(distro.distro_release_info())

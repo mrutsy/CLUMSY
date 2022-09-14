@@ -6,9 +6,12 @@
 #     dockerCompose.install()
 #
 # docker.remove()
-
+import os
+import sys
 
 import distro
+print(os.name)
+print(sys.platform)
 print(distro.id())
 print(distro.os_release_info())
 print(distro.info())

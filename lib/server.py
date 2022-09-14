@@ -1,8 +1,8 @@
 from dc import docker, dockerCompose
-#
-# if docker.current_version() is None:
-#     print("Докер не установлен.")
 
-# ?
+if docker.current_version() is None:
+    docker.install()
+if dockerCompose.current_version() is None:
+    print("DockerCompose is None")
 
-print(dockerCompose.current_version())
+

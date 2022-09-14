@@ -1,5 +1,6 @@
 import subprocess
 import os
+import sys
 
 
 def remove():
@@ -15,11 +16,23 @@ def remove():
                   docker-engine -y")
 
 
-def current_version():
-    output = str(subprocess.check_output("docker -v", shell=True).rstrip()).replace("b'", "").replace(",", "") \
-        .split(" ")
+def install():
+    os.system("sudo sh "+os.path.join("lib", "dc", "get_docker.sh"))
 
-    if output[0] == "Docker":
-        return output[2]
-    else:
-        return None
+
+def current_version():
+    output = None
+    try:
+        output = subprocess.check_output(['docker -v'], shell=True, stderr=subprocess.STDOUT)
+    except subprocess.CalledProcessError as Error:
+        if Error.args[0] == 127:
+            output = None
+        elif Error.args[0] == 1:
+            output = None
+        else:
+            print(Error)
+    finally:
+        if output is None:
+            return output
+        else:
+            return str(output).rstrip().replace("b'", "").replace(",", "").split(" ")[2]

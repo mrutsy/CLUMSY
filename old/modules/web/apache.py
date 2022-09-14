@@ -1,2 +1,0 @@
-def install():
-    print("OK")

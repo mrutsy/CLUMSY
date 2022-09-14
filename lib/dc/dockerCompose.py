@@ -1,6 +1,10 @@
 import subprocess
 
 
+def install():
+    pass
+
+
 def current_version():
     output = None
     try:

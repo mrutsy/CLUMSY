@@ -1,10 +1,21 @@
 import subprocess
 import os
-import sys
-
+import platform
+import distro
 
 def remove():
-    os.system("sudo dnf remove docker \
+
+    distro.distro_release_info()
+    if platform == "linux" or platform == "linux2":
+
+    elif platform == "darwin":
+    elif platform == "win32":
+
+    os.system("sudo dnf remove docker-ce docker-ce-cli containerd.io docker-compose-plugin -y")
+    os.system(
+        "sudo \
+         dnf remove \
+                  docker \
                   docker-client \
                   docker-client-latest \
                   docker-common \
@@ -13,7 +24,9 @@ def remove():
                   docker-logrotate \
                   docker-selinux \
                   docker-engine-selinux \
-                  docker-engine -y")
+                  docker-engine \
+                  -y"
+    )
 
 
 def install():

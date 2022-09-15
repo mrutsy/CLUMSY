@@ -1,3 +1,3 @@
 import system
 
-system.Language("system").word("logo").show()
+system.Language("system").word("logo").console()

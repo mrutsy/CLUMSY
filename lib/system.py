@@ -2,13 +2,18 @@ import configparser
 import os
 
 
+# class System(object):
+#     def encoding(self):
+#         if
+
+
 class Parser(object):
 
     def __init__(self, *where_parse):
         self.parse_path = os.path.join(*where_parse)
 
         self.parser = configparser.ConfigParser()
-        self.parser.read(os.path.join(self.parse_path), "cp1251")
+        self.parser.read(os.path.join(self.parse_path), "UTF-8")
 
     def sections(self):
         return self.parser.sections()
@@ -79,12 +84,13 @@ class Language(object):
             self.received_word = Parser(self.language_path).get(self.language, receive_word)
         return self
 
-    def show(self):
+    def console(self):
         for line in str(self.received_word).split("{}"):
             print(line)
 
     def get(self):
         return self.received_word
+
 
 #
 # Logger(Settings().version())

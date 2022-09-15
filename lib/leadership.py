@@ -4,6 +4,7 @@ import sys
 import system
 import interface
 
+
 class Api(object):
 
     def __init__(self):
@@ -12,7 +13,7 @@ class Api(object):
 
     def initialization(self):
         self.arg_parser = argparse.ArgumentParser()
-        self.arg_parser.add_argument('-np', '--new_project', default=None, help=system.Language().lang().word("help_new_project").get())
+        self.arg_parser.add_argument('-np', '--new_project', default=None, help="2")
         self.arg_parser.add_argument('-up', '--up_project', default=None, help="Пошел на хуй")
         self.arg_parser.add_argument('-dp', '--down_project', default=None, help="Пошел на хуй")
         self.arg_parser.add_argument('-ns', '--new_site', default=None, help="Пошел на хуй")

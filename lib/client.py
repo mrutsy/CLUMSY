@@ -1,3 +1,3 @@
-import interface
+import system
 
-interface.Interface.view("system", "logo")
+system.Language("system").word("logo").show()

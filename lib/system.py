@@ -46,7 +46,7 @@ class Files(object):
 
 class Settings(object):
     def __init__(self,
-                 settings_path_default=os.path.join("../configs", "settings.ini"),
+                 settings_path_default=os.path.join("configs", "settings.ini"),
                  ):
         self.settings_path = settings_path_default
 
@@ -66,18 +66,22 @@ class Settings(object):
 class Language(object):
     def __init__(self,
                  language_default=Parser(Settings().settings_path).get("program", "language"),
-                 language_path_default=os.path.join("../configs", "languages.ini")
+                 language_path_default=os.path.join("configs", "languages.ini")
                  ):
         self.language = language_default
         self.language_path = language_path_default
         self.received_word = None
 
     def word(self, receive_word, *format_arg):
-        self.received_word = Parser(self.language_path).get(self.language, receive_word).format(*format_arg)
+        if format_arg:
+            self.received_word = Parser(self.language_path).get(self.language, receive_word).format(*format_arg)
+        else:
+            self.received_word = Parser(self.language_path).get(self.language, receive_word)
         return self
 
     def show(self):
-        print(self.received_word)
+        for line in str(self.received_word).split("{}"):
+            print(line)
 
     def get(self):
         return self.received_word
@@ -88,4 +92,4 @@ class Language(object):
 # print(Language().word("test", "Роман", "23", "ахуе").get())
 #
 # print(Parser(Language().language_path).get_new_line("system", "logo"))
-Files().new_folder("../configs", "zhilk.in")
+Files().new_folder("configs", "zhilk.in")

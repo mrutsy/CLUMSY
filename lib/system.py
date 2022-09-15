@@ -47,13 +47,13 @@ class Logger(object):
 
 class Files(object):
 
-    @staticmethod
-    def new_folder(*path):
-
+    def new_folder(self, *path):
         if os.path.isdir(os.path.join(*path)):
             Logger("error_creating_folder_already_created", os.path.join(*path))
+            return False
         else:
             os.mkdir(os.path.join(*path))
+            return True
 
 
 class Settings(object):
@@ -97,12 +97,3 @@ class Language(object):
 
     def get(self):
         return self.received_word
-
-
-#
-# Logger(Settings().version())
-# Language().word("test", "Роман", "23", "ахуе").show()
-# print(Language().word("test", "Роман", "23", "ахуе").get())
-#
-# print(Parser(Language().language_path).get_new_line("system", "logo"))
-# Files().new_folder("configs", "zhilk.in")

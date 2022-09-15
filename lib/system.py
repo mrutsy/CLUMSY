@@ -105,4 +105,4 @@ class Language(object):
 # print(Language().word("test", "Роман", "23", "ахуе").get())
 #
 # print(Parser(Language().language_path).get_new_line("system", "logo"))
-Files().new_folder("configs", "zhilk.in")
+# Files().new_folder("configs", "zhilk.in")

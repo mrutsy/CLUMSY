@@ -1,10 +1,17 @@
 import configparser
 import os
+import sys
 
 
-# class System(object):
-#     def encoding(self):
-#         if
+class System(object):
+    @staticmethod
+    def encoding():
+        if sys.platform == "linux" or sys.platform == "linux2":
+            return "utf-8"
+        elif sys.platform == "darwin":
+            pass
+        elif sys.platform == "win32":
+            return "cp1251"
 
 
 class Parser(object):
@@ -19,7 +26,7 @@ class Parser(object):
         return self.parser.sections()
 
     def get(self, section, option):
-        return self.parser.get(section, option)
+        return self.parser.get(section, option).encode().decode(System.encoding(), 'ignore')
 
     def get_list(self, section, option):
         return self.parser.get(section, option).split("{}")
@@ -86,7 +93,7 @@ class Language(object):
 
     def console(self):
         for line in str(self.received_word).split("{}"):
-            print(line.encode().decode('utf-8', 'ignore'))
+            print(line)
 
     def get(self):
         return self.received_word

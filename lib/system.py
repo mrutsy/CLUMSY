@@ -8,7 +8,7 @@ class Parser(object):
         self.parse_path = os.path.join(*where_parse)
 
         self.parser = configparser.ConfigParser()
-        self.parser.read(os.path.join(self.parse_path))
+        self.parser.read(os.path.join(self.parse_path), "utf8")
 
     def sections(self):
         return self.parser.sections()

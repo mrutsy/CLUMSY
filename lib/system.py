@@ -29,10 +29,10 @@ class Parser(object):
         return self.parser.get(section, option).encode().decode(System.encoding(), 'ignore')
 
     def get_list(self, section, option):
-        return self.parser.get(section, option).split("{}")
+        return self.parser.get(section, option).split("|:|")
 
     def get_new_line(self, section, option):
-        return self.parser.get(section, option).replace("{}", "\n")
+        return self.parser.get(section, option).replace("|:|", "\n")
 
     def set(self, section, option, result):
         self.parser.set(section, option, result)
@@ -92,7 +92,7 @@ class Language(object):
         return self
 
     def console(self):
-        for line in str(self.received_word).split("{}"):
+        for line in str(self.received_word).split("|:|"):
             print(line)
 
     def get(self):

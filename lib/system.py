@@ -24,7 +24,7 @@ class Parser(object):
 
     def set(self, section, option, result):
         self.parser.set(section, option, result)
-        with open(self.parse_path, "w") as config_file:
+        with open(self.parse_path, "w", encoding="utf-8") as config_file:
             self.parser.write(config_file)
 
 

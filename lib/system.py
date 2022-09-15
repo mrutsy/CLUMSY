@@ -86,7 +86,7 @@ class Language(object):
 
     def console(self):
         for line in str(self.received_word).split("{}"):
-            print(line)
+            print(line.encode().decode('utf-8', 'ignore'))
 
     def get(self):
         return self.received_word

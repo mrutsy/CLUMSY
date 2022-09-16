@@ -1,0 +1,2 @@
+def argv():
+    return None

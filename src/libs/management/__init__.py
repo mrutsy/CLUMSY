@@ -1,1 +1,1 @@
-from . import phpMyAdmin
+from .phpMyAdmin import *

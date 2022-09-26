@@ -1,1 +1,1 @@
-from . import php
+from .php import *

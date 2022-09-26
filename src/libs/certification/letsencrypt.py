@@ -1,0 +1,2 @@
+class LetsEncrypt (object):
+    pass

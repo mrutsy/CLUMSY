@@ -1,10 +1,6 @@
 import argparse
 import sys
 
-from src.libs import system
-
-print(system.fs.create_dir("logs"))
-
 
 def init_args():
     arg_parser = argparse.ArgumentParser(

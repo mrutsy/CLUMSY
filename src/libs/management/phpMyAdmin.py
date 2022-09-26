@@ -1,0 +1,2 @@
+class PhpMyAdmin (object):
+    pass

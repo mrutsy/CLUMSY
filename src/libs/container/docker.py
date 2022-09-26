@@ -1,2 +1,6 @@
-def print_test():
-    print("Docker")
+class Docker (object):
+    pass
+
+
+class DockerCompose (object):
+    pass

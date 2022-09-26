@@ -1,5 +1,5 @@
 <div id="logo" align="center">
-    <h1>🇨 🇱 🇺 🇲 🇸 🇾 - v: <b>0.0.1</b> ALPHA</h1> 
+    <h1>🇨 🇱 🇺 🇲 🇸 🇾 - v: <b>0.0.1</b> ALPHA<span style="font-weight:bold;">THIS IS</span></h1> 
     
 </div>
 <div align="center">

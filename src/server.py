@@ -1,6 +1,10 @@
 import argparse
 import sys
 
+from src.libs import system
+
+print(system.fs.create_dir("logs"))
+
 
 def init_args():
     arg_parser = argparse.ArgumentParser(
@@ -92,4 +96,34 @@ def init_args():
     return arg_parser.parse_args(sys.argv[1:])
 
 
-print("OK")
+if __name__ == "__main__":
+    if init_args().select_project:
+        if init_args().select_site:
+            print("site")
+        elif init_args().new_project:
+            print("ok")
+        elif init_args().rename_project:
+            print("ok")
+        elif init_args().config_project:
+            print("ok")
+        elif init_args().update_certificate:
+            print("ok")
+        else:
+            print("ERROR - SITE NOT SELECT")
+    elif init_args().new_project:
+        if init_args().select_site:
+            print("site")
+        elif init_args().new_project:
+            print("ok")
+        elif init_args().rename_project:
+            print("ok")
+        elif init_args().config_project:
+            print("ok")
+        elif init_args().update_certificate:
+            print("ok")
+        else:
+            print("ERROR - SITE NOT SELECT")
+    else:
+        import client
+
+        client.start()

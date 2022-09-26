@@ -35,19 +35,19 @@
 <div align="center">
     <p>
         <a href="https://github.com/mrutsy/CLUMSY/blob/stable/LICENSE">
-          <img src="https://img.shields.io/badge/version-0.0.1 ALPHA-black.svg"  alt="VERSION"/>
+          <img src="https://img.shields.io/badge/version-0.0.1 ALPHA-black.svg?style=plastic&logo="  alt="VERSION"/>
         </a>
         <a href="https://github.com/mrutsy/CLUMSY/blob/stable/LICENSE">
-          <img src="https://img.shields.io/badge/license-MIT-white.svg"  alt="LICENSE"/>
+          <img src="https://img.shields.io/badge/license-MIT-white.svg?style=plastic&logo="  alt="LICENSE"/>
         </a>
         <a href="https://www.python.org/">
-            <img src="https://img.shields.io/badge/built%20with-Python3-yellow.svg"  alt=""/>
+            <img src="https://img.shields.io/badge/built%20with-Python3-yellow.svg?style=plastic&logo=python"  alt=""/>
         </a>
         <a href="https://t.me/mrutsy">
-            <img src="https://img.shields.io/discord/510385886869979136.svg?style=social&logo=discord" alt="">
+            <img src="https://img.shields.io/discord/510385886869979136.svg?style=plastic&logo=telegram" alt="">
         </a>
-        <a href="https://t.me/mrutsy">
-            <img src="https://img.shields.io/discord/510385886869979136.svg?style=social&logo=telegram" alt="">
+        <a href="https://vk.com/mrutsy">
+            <img src="https://img.shields.io/discord/510385886869979136.svg?style=plastic&logo=vk" alt="">
         </a>
     </p>
 </div>

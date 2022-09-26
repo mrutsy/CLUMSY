@@ -17,17 +17,15 @@ with ❤ by @mrutsy from Russia
 
 ___
 
-## <a name="ru">[ - RU - ]||| CLUMSY - Разверни WEB - сервер одним пальцем ноги.</a>
+## <a name="ru">[ - RU - ] CLUMSY - Разверни WEB - сервер одним пальцем ноги.</a>
 
 Данный проект позволяет быстро и элегантно развернуть WEB - сервер, загрузить сайты и установить SSL сертификат.
 
 ### Оглавление
-- <a name="ru_install">Установка
-  - <a name="ru_install_linux">Linux
-  - <a name="ru_install_windows">Windows
-  - <a name="ru_install_android">Android
-
-
+- [Установка](#ru_install)
+  - [Linux](#ru_install_linux)
+  - [Windows](#ru_install_windows)
+  - [Android](#ru_install_android)
 ---
 
 - Создать новый проект <br>

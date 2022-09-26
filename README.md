@@ -1,13 +1,12 @@
-<html lang="ru">
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
 <head>
-    <title>CLUMSY</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 </head>
 <body>
     <header>
-        <div id="logo" style="text-align: center;">
+        <div id="logo" style="text-align: center">
             <h1>🇨 🇱 🇺 🇲 🇸 🇾</h1>
-            <p>v: <b>0.0.1</b> ALPHA</p>
+            v: <b>0.0.1</b> ALPHA
         </div>
     </header>
     <main>

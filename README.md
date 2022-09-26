@@ -10,7 +10,7 @@
 
 ___
 
-<table>
+<table align="center">
   <tbody>
     <tr>
       <td>Выберите язык</td>

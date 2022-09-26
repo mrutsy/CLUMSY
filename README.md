@@ -1,15 +1,28 @@
-<a href="#1">1</a>
-
 <p align="center">
     <h1 align="center" style="">🇨​​​​​ 🇱​​​​​ 🇺​​​​​ 🇲​​​​​ 🇸​​​​​ 🇾​​​​​</h1>
     <p align="center">
-        Deploy the <b>WEB server</b> with one toe.
+        <br>Deploy the <b>WEB server</b> with one toe.
         <br> Deploy <b>NGINX</b>, <b>APACHE</b>, <b>PHP</b>, <b>MYSQL</b>, <b>CERTBOT</b> in docker containers or directly into the system.
-        <br> V: <b>0.0.1 ALPHA</b>
+        <br><br> V: <b>0.0.1 ALPHA</b>
     <p>
 </p>
 
 ___
+
+<table>
+  <tbody>
+    <tr>
+      <td>Выберите язык</td>
+      <td>选择一种语言</td>
+    </tr>
+    <tr>
+      <td>
+        <a href="#ru">🇷🇺 Русский</a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 
  - [🇷🇺 Русский](#ru)
  - [🇨🇳 中文](#cn)

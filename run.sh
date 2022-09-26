@@ -3,8 +3,8 @@ export PYTHONPATH=""
 if [ -z "$PYTHONPATH" ]; then
         export PYTHONPATH="src:$PYTHONPATH"
         echo "SET PYTHONPATH LIB - OK"
+        echo "$PYTHONPATH"
 fi
-echo "$PYTHONPATH"
 # shellcheck disable=SC2068
 python src/server.py $@
 $SHELL

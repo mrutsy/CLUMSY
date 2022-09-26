@@ -1,5 +1,5 @@
 <p align="center">
-    <h1 align="center" style="font-size: 70px; margin: 0;">🇨​​​​​🇱​​​​​🇺​​​​​🇲​​​​​🇸​​​​​🇾​​​​​</h1>
+    <h1 align="center" style="">🇨​​​​​ 🇱​​​​​ 🇺​​​​​ 🇲​​​​​ 🇸​​​​​ 🇾​​​​​</h1>
     <p align="center">Deploy the <b>WEB server</b> with one toe. Deploy <b>NGINX</b>, APACHE, PHP, MYSQL, CERTBOT in docker containers or directly into the system. <p>
 </p>
 

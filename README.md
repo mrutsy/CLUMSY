@@ -1,6 +1,14 @@
-<div style="text-align: center">
-    <p style="font-size: 70px">🇨​​​​​🇱​​​​​🇺​​​​​🇲​​​​​🇸​​​​​🇾​​​​​</p>
-</div>
+<p align="center">
+    <h1 align="center" style="font-size: 40px">🇨​​​​​🇱​​​​​🇺​​​​​🇲​​​​​🇸​​​​​🇾​​​​​</h1>
+    <p align="center">Deploy the <b>WEB server</b> with one toe. Deploy <b>NGINX</b>, APACHE, PHP, MYSQL, CERTBOT in docker containers or directly into the system. <p>
+</p>
+
+
+
+
+
+<p style="font-size: 70px">🇨​​​​​🇱​​​​​🇺​​​​​🇲​​​​​🇸​​​​​🇾​​​​​</p>
+
 
 
 

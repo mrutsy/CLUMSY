@@ -1,5 +1,5 @@
 import sys
-from src.libs import container
+from libs import container
 
 print(sys.argv)
 

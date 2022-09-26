@@ -9,8 +9,6 @@
 
 - [🇷🇺 Русский](#ru) | - | [🇨🇳 中文](#cn) | - | [🇺🇸 English](#ru)
 ```
-v: 0.0.1 
-
 SUPPORT:
     _ Linux
         Fedora
@@ -18,9 +16,6 @@ SUPPORT:
         7, 8, 10
     _ Android
         6, 7, 8, 9, 10, 11, 12
-    
-
-with ❤ by @mrutsy from Russia
 ```
 
 ___

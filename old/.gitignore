@@ -1,4 +1,4 @@
-src/logs
+logs
 
 /projects/*
 !/projects/cp/

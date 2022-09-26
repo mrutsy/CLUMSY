@@ -21,12 +21,12 @@
         </a>
     </p>
 </div>
-<div align="center">
+<div align="center" style="border-radius: 10px;">
     <table>
         <tbody>
             <tr>
                 <td>Выберите язык</td>
-                <td>选择一种语言</td>
+                <td>选择一种语言中文</td>
                 <td>اختر لغة</td>
                 <td>एक भाषा का चयन करें </td>
                 <td>Select language</td>

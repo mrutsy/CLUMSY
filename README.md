@@ -32,8 +32,25 @@
         </tbody>
     </table>
 </div>
-
-
+<div align="center">
+    <p>
+        <a href="https://github.com/mrutsy/CLUMSY/blob/stable/LICENSE">
+          <img src="https://img.shields.io/badge/version-0.0.1 ALPHA-black.svg"  alt="VERSION"/>
+        </a>
+        <a href="https://github.com/mrutsy/CLUMSY/blob/stable/LICENSE">
+          <img src="https://img.shields.io/badge/license-MIT-white.svg"  alt="LICENSE"/>
+        </a>
+        <a href="https://www.python.org/">
+            <img src="https://img.shields.io/badge/built%20with-Python3-yellow.svg"  alt=""/>
+        </a>
+        <a href="https://t.me/mrutsy">
+            <img src="https://img.shields.io/discord/510385886869979136.svg?style=social&logo=discord" alt="">
+        </a>
+        <a href="https://t.me/mrutsy">
+            <img src="https://img.shields.io/discord/510385886869979136.svg?style=social&logo=telegram" alt="">
+        </a>
+    </p>
+</div>
 
 
 

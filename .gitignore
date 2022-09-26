@@ -1,4 +1,4 @@
 src/logs
 
-/projects/*
-!/projects/cp/
+projects/*
+!projects/cp/

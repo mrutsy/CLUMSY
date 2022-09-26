@@ -1,21 +1,13 @@
 <p align="center">
     <h1 align="center" style="">🇨​​​​​ 🇱​​​​​ 🇺​​​​​ 🇲​​​​​ 🇸​​​​​ 🇾​​​​​</h1>
-    <p align="center">Deploy the <b>WEB server</b> with one toe. Deploy <b>NGINX</b>, APACHE, PHP, MYSQL, CERTBOT in docker containers or directly into the system. <p>
+    <p align="center">
+        Deploy the <b>WEB server</b> with one toe.
+        <br> Deploy <b>NGINX</b>, <b>APACHE</b>, <b>PHP</b>, <b>MYSQL</b>, <b>CERTBOT</b> in docker containers or directly into the system.
+        <br> V: <b>0.0.1 ALPHA</b>
+    <p>
 </p>
 
-
-
-
-
-<p style="font-size: 70px">🇨​​​​​🇱​​​​​🇺​​​​​🇲​​​​​🇸​​​​​🇾​​​​​</p>
-
-
-
-
-
-
-# style="text-align:center;">🇨​​​​​🇱​​​​​🇺​​​​​🇲​​​​​🇸​​​​​🇾​​​​​
-- [🇷🇺 Русский](#ru) |-| [🇨🇳 中文](#cn) |-| [🇺🇸 English](#ru)
+- [🇷🇺 Русский](#ru) | - | [🇨🇳 中文](#cn) | - | [🇺🇸 English](#ru)
 ```
 v: 0.0.1 
 

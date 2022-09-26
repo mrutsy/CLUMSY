@@ -1,1 +1,1 @@
-from src.libs import *
+from . import *

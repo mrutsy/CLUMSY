@@ -1,7 +1,7 @@
 export PYTHONPATH=""
 # shellcheck disable=SC2068
 if [ -z "$PYTHONPATH" ]; then
-        export PYTHONPATH="srwc:$PYTHONPATH"
+        export PYTHONPATH="src:$PYTHONPATH"
         echo "SET PYTHONPATH LIB - OK"
 fi
 echo "$PYTHONPATH"

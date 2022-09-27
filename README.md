@@ -1,5 +1,5 @@
 <div id="logo" align="center">
-    <h1>🇨 🇱 🇺 🇲 🇸 🇾</h1> 
+    <h1>🇨 🇱 🇺 🇲 🇸 🇾 - OFFLINE</h1> 
     
 </div>
 <div align="center">
@@ -21,7 +21,7 @@
         </a>
     </p>
 </div>
-<div align="center" style="border-radius: 10px;">
+<div align="center" style="text-align: center;">
     <table>
         <tbody>
             <tr>

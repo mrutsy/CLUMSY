@@ -1,5 +1,5 @@
 <div id="logo" align="center">
-    <h1>🇨 🇱 🇺 🇲 🇸 🇾 - OFFLINE</h1> 
+    <h1>🇨 🇱 🇺 🇲 🇸 🇾</h1> 
     
 </div>
 <div align="center">

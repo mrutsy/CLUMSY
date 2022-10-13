@@ -2,3 +2,7 @@ src/logs
 
 /projects/*
 !/projects/cp/
+
+#/src/offline/*
+
+src/configs/u_setting.ini

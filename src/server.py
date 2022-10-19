@@ -42,6 +42,9 @@ class Server(object):
 
 
 if __name__ == "__main__":
+    print(system.SO().system())
+    print(system.SO().node())
+    print(system.SO().package_manager())
     Server().run()
 
 # import src.libs.system as system

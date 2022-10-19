@@ -10,20 +10,20 @@ class SO(object):
     def __init__(self):
         self.platform_uname = platform.uname()
 
-    def _system(self):
+    def system(self):
         return self.platform_uname.system
 
-    def _node(self):
+    def node(self):
         return self.platform_uname.node
 
     def package_manager(self):
-        if self._node() == "fedora":
+        if self.node() == "fedora":
             return "dnf"
-        elif self._node() == "ubuntu":
+        elif self.node() == "ubuntu":
             return "apt"
-        elif self._node() == "debian":
+        elif self.node() == "debian":
             return "dpkg"
-        elif self._node() == "manjaro":
+        elif self.node() == "manjaro":
             return "pacman"
         else:
             exit("HZ SYSTEM")

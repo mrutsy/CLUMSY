@@ -42,6 +42,7 @@ class Server(object):
 
 
 if __name__ == "__main__":
+    print(platform.uname())
     print(system.SO().system())
     print(system.SO().node())
     print(system.SO().package_manager())

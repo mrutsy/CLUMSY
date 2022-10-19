@@ -39,6 +39,7 @@ class Logger(object):
             print(Error)
 
     def add_log(self, type_log, text_log):
+
         if self.log_level == 0:
             generate_level_log = "\n ~ "
             generate_level_log_new_line = "\n ~ "

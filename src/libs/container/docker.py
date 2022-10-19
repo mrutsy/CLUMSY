@@ -1,3 +1,6 @@
+import src.libs.system as system
+
+
 class Docker(object):
 
     def docker_install(self):
@@ -7,6 +10,12 @@ class Docker(object):
         pass
 
     def docker_version(self):
+        pass
+
+    def docker_daemon(self):
+        pass
+
+    def docker_daemon_on(self):
         pass
 
     def compose_install(self):
@@ -31,6 +40,9 @@ class Docker(object):
         pass
 
     def image_import(self):
+        pass
+
+    def image_remove(self):
         pass
 
     def image_list(self):
@@ -64,6 +76,18 @@ class Docker(object):
         pass
 
     def container_unpause(self):
+        pass
+
+    def network_create(self):
+        pass
+
+    def network_remove(self):
+        pass
+
+    def network_list(self):
+        pass
+
+    def network_connect(self):
         pass
 
 

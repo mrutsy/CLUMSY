@@ -1,8 +1,18 @@
+
 # shellcheck disable=SC2034
 python_path=$(which python)
 # shellcheck disable=SC1009
 if [ $? -eq 0 ]
 then
+  if [ -z "$PYTHONPATH" ]; then
+  # shellcheck disable=SC2140
+  echo "[RU] Переменная PYTHONPATH не обнаружена или пустая. Добавляю путь к библиотеке ("src:"$PYTHONPATH"")."
+  export PYTHONPATH="src:$PYTHONPATH"
+#        export PYTHONPATH="src/libs:$PYTHONPATH"
+#        export PYTHONPATH="src\libs:$PYTHONPATH"
+  echo "[RU] Путь к библиотеке добавлен."
+  #  echo "$PYTHONPATH"
+  fi
   # shellcheck disable=SC2068
   python src/server.py $@
   $SHELL
